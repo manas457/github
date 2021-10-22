@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="githubFlow" doc:id="fece6b9d-9692-4705-a0db-7f48424055a7" >
 		<http:listener doc:name="Listener" doc:id="cf1efa4a-7490-4bb6-a480-dc543308901f" config-ref="HTTP_Listener_config" path="/github"/>
-		<logger level="INFO" doc:name="Logger" doc:id="2b2e07ed-0f44-46bb-9730-54e214f0a093" message='"This is to learn github"'/>
+		<logger level="INFO" doc:name="Logger" doc:id="2b2e07ed-0f44-46bb-9730-54e214f0a093" message='"This is to learn github for beginners sincerely"'/>
 	</flow>
 </mule>
